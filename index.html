@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nazib | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ===== LOADING SCREEN ===== -->
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#home" class="logo">Nazib.</a>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#animations">Animations</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button
+              class="theme-toggle"
+              id="themeToggle"
+              aria-label="Toggle theme"
+            >
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+          <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== MOBILE MENU ===== -->
+    <div class="overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="close-btn" id="closeMenu">&times;</button>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#animations">Animations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- ===== HOME ===== -->
+    <section id="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="home-text">
+            <div class="availability-badge">
+              <span class="dot"></span>
+              <span>Available for work</span>
+            </div>
+            <p class="greeting">Hi, I'm <span class="highlight">Nazib</span></p>
+            <h1>MERN Stack Developer</h1>
+            <h1 class="static-title">&amp; 2D Animator</h1>
+            <p class="bio">
+              I design and build digital products that people love to use —
+              fast, clean, and accessible.
+            </p>
+            <div class="btn-group">
+              <a href="#projects" class="btn btn-outline">View My Work</a>
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+          </div>
+          <div class="home-image">
+            <div class="image-wrapper">
+              <img src="img/profile.jpg" alt="Nazib" loading="lazy" />
+              <div class="ring"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">WHAT I DO</span>
+          <h2 class="section-title">Services</h2>
+        </div>
+        <div class="services-grid reveal" id="servicesGrid">
+          <!-- Services injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">PORTFOLIO</span>
+          <div class="section-title-wrapper">
+            <h2 class="section-title">Demo Selected Work (I'm working on it)</h2>
+            <a href="#" class="all-link">All projects →</a>
+          </div>
+        </div>
+        <div class="projects-grid reveal" id="projectsGrid">
+          <!-- Projects injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header reveal" style="text-align: center">
+          <span class="section-tag">ABOUT ME</span>
+          <h2 class="section-title">A bit about who I am</h2>
+        </div>
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <p>
+              I am an undergraduate student currently studying Information and
+              Communication Engineering at the Bangladesh University of
+              Professionals (BUP), Dhaka, Bangladesh.I have simple knowledge in
+              multiple programming languages including Java, C, C++ and
+              JavaScript along with practical experience in HTML and CSS. I am
+              also highly passionate about Web Development, 2d Animation &
+              professional video editing. I continuously expanding my expertise
+              in modern technologies.
+            </p>
+
+            <div class="tech-stack">
+              <h4>STACK & TOOLS</h4>
+              <div class="tech-tags">
+                <span>HTML / CSS</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>MongoDB</span>
+                <span>Adobe Animate</span>
+                <span>VS Code</span>
+                <span>Adobe After Effects</span>
+                <span>Adobe Premier Pro</span>
+                <span>Clip Studio Paint</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2D ANIMATIONS ===== -->
+    <section id="animations">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">2D ANIMATIONS</span>
+          <div class="section-title-wrapper">
+            <h2 class="section-title">Demo Animation Projects (I'm working on it)</h2>
+            <a href="#" class="all-link">All animations →</a>
+          </div>
+        </div>
+        <div class="animations-grid reveal" id="animationsGrid">
+          <!-- Animations injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Let's Work Together</h2>
+        </div>
+        <div class="contact-grid reveal">
+          <div class="contact-info">
+            <p class="contact-description">
+              I'm open to full-stack and frontend development projects, short or
+              long-term. Landing page, full product redesign, or just a second
+              pair of eyes — let's talk.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>nazib.ice.bup@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <span>github.com/Nazib-9007</span>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-linkedin-in"></i>
+                <span>linkedin.com/in/nazib</span>
+              </div>
+            </div>
+            
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Name *" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Email *" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Message *" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-socials">
+            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+          <p>&copy; 2026 S M Nazib Ul Alam. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button id="back-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
