@@ -8,13 +8,13 @@ A modern, responsive personal portfolio website showcasing my work as a MERN Sta
 
 ## ✨ Live Demo
 
-[View Live Demo](https://your-username.github.io/portfolio)
+[View Live Demo](https://nazib9007.github.io/portfolio)
 
 ## 📸 Screenshots
 
 | Home | Services | Projects |
 |------|----------|----------|
-| ![Home](img/screenshots/home.png) | ![Services](img/screenshots/services.png) | ![Projects](img/screenshots/projects.png) |
+| ![Home](home.png) | ![Services](service.png) | ![Projects](project.png) |
 
 ## 🎯 Features
 
@@ -27,7 +27,7 @@ A modern, responsive personal portfolio website showcasing my work as a MERN Sta
 - ✅ Modern card designs
 - ✅ Fully responsive (Mobile-first approach)
 
-### 📄 Sections
+## 📄 Sections
 - **Home** - Hero section with typing animation
 - **Services** - What I offer as a developer
 - **Projects** - Web development portfolio with filtering
@@ -35,7 +35,7 @@ A modern, responsive personal portfolio website showcasing my work as a MERN Sta
 - **Animations** - 2D animation projects with video playback
 - **Contact** - Contact form and social links
 
-### 🎬 Interactive Features
+## 🎬 Interactive Features
 - 📱 Mobile-responsive navigation with hamburger menu
 - 🔙 Back to top button
 - 🎥 Video playback for animation projects
