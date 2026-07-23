@@ -4,11 +4,9 @@ This is my own develop portfolio, which is using Ai, means it's developed by pro
 
 A modern, responsive personal portfolio website showcasing my work as a MERN Stack Developer and 2D Animator. Built with pure HTML, CSS, and JavaScript.
 
-![Portfolio Preview](img/preview.jpg)
+# ✨ Live Link
 
-## ✨ Live Demo
-
-[View Live Demo](https://nazib9007.github.io/portfolio)
+[View Live](https://nazib-9007.github.io/Portfolio/)
 
 ## 📸 Screenshots
 
@@ -17,7 +15,6 @@ A modern, responsive personal portfolio website showcasing my work as a MERN Sta
 | ![Home](home.png) | ![Services](service.png) | ![Projects](project.png) |
 
 ## 🎯 Features
-
 ### 🎨 Design & UI
 - ✅ Dark / Light Mode toggle with localStorage persistence
 - ✅ Smooth scrolling navigation
