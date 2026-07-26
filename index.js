@@ -1,6 +1,4 @@
-// =============================================================
 // DATA - Using Fast Loading Placeholder Images
-// =============================================================
 const data = {
     services: [
         {
@@ -81,11 +79,7 @@ const data = {
         }
     ]
 };
-
-// =============================================================
 // RENDER FUNCTIONS
-// =============================================================
-
 // Render Services
 function renderServices() {
     const container = document.getElementById('servicesGrid');
@@ -152,10 +146,7 @@ function renderAnimations() {
         </div>
     `).join('');
 }
-
-// =============================================================
 // VIDEO PLAY/PAUSE TOGGLE
-// =============================================================
 function toggleAnimation(index) {
     const video = document.getElementById(`animVideo${index}`);
     const btn = video.closest('.animation-video').querySelector('.animation-play-btn');
@@ -174,10 +165,7 @@ function toggleAnimation(index) {
         if (thumbnail) thumbnail.style.display = 'block';
     }
 }
-
-// =============================================================
 // SCROLL REVEAL
-// =============================================================
 function initScrollReveal() {
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
@@ -189,10 +177,7 @@ function initScrollReveal() {
     }, { threshold: 0.1 });
     reveals.forEach(el => observer.observe(el));
 }
-
-// =============================================================
 // LAZY LOAD IMAGES
-// =============================================================
 function initLazyLoad() {
     document.querySelectorAll('img[loading="lazy"]').forEach(img => {
         if (img.complete) {
